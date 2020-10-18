@@ -1,0 +1,38 @@
+.person-info {
+    display: flex;
+    height: 100px;
+    width: 260px;
+    justify-content: center;
+    flex-direction: column;
+    padding: 32px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+    margin: 10px 0;
+    background: #fff;
+    cursor: pointer;
+}
+
+.person-info.selected,
+.person-info:hover {
+    padding: 30px;
+    border: 2px solid pink;
+}
+
+.person-info .name {
+    padding: 0 0 10px;
+    color: #333333;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.person-info .job-title {
+    padding: 0 0 20px;
+    color: #e74c3c;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.person-info .email-address {
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.8em;
+}
